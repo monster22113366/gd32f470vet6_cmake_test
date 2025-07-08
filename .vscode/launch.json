@@ -8,7 +8,7 @@
         
     {
         "cwd": "${workspaceRoot}",
-        "executable": "${workspaceRoot}/build/first_test.elf",
+        "executable": "${workspaceRoot}/build/bin/first_test.elf",
         "name": "Debug with OpenOCD",
         "request": "launch",
         "type": "cortex-debug",
