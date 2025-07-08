@@ -97,6 +97,7 @@ int main(void)
   while (1)
   {
     task_run();
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

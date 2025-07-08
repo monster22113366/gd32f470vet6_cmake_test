@@ -7,5 +7,10 @@
 	"cortex-debug.gdbPath": "/opt/arm_gcc/bin/arm-none-eabi-gdb",
 	"clangd.path": "/opt/clangd/bin/clangd",
 	
+	"clangd.arguments": [
+  "--compile-commands-dir=/home/momster/elect/code/ST/stm32f429zgt6/first_test/build" //修改成你的compile_commands.json的路径
+	],
+
+	"clangd.enableCodeCompletion": true,
 
 }
