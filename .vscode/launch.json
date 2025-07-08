@@ -1,0 +1,32 @@
+{
+
+// Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "2.0.0",
+    "configurations": [
+        
+    {
+        "cwd": "${workspaceRoot}",
+        "executable": "${workspaceRoot}/build/first_test.elf",
+        "name": "Debug with OpenOCD",
+        "request": "launch",
+        "type": "cortex-debug",
+        "servertype": "openocd",
+        "configFiles": [
+            "interface/cmsis-dap.cfg",
+            "target/stm32f4x.cfg"
+        ],
+        "searchDir": [],
+        "runToEntryPoint": "main",
+        "showDevDebugOutput": "raw",
+        "armToolchainPath": "/opt/arm_gcc/bin",
+        // "svdPath": "${workspaceRoot}/GD32F4xx.svd",
+        "liveWatch": {
+            "enabled": true,
+            "samplesPerSecond": 4
+        }
+    }
+    ],
+    
+}

@@ -1,0 +1,11 @@
+{
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1,
+    
+	"cortex-debug.openocdPath": "/opt/openocd/bin/openocd",
+	"cortex-debug.armToolchainPath": "/opt/arm_gcc/bin",
+	"cortex-debug.gdbPath": "/opt/arm_gcc/bin/arm-none-eabi-gdb",
+	"clangd.path": "/opt/clangd/bin/clangd",
+	
+
+}
