@@ -2,13 +2,13 @@
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 1,
     
-	"cortex-debug.openocdPath": "/opt/openocd/bin/openocd",
-	"cortex-debug.armToolchainPath": "/opt/arm_gcc/bin",
-	"cortex-debug.gdbPath": "/opt/arm_gcc/bin/arm-none-eabi-gdb",
-	"clangd.path": "/opt/clangd/bin/clangd",
+	"cortex-debug.openocdPath": "/usr/bin/openocd",
+	"cortex-debug.armToolchainPath": "/usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin",
+	"cortex-debug.gdbPath": "/usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gdb",
+	"clangd.path": "/usr/local/bin/clangd",
 	
 	"clangd.arguments": [
-  "--compile-commands-dir=/home/momster/elect/code/ST/stm32f429zgt6/first_test/build" //修改成你的compile_commands.json的路径
+  "--compile-commands-dir=/home/monster/elect/code/stm32f429zgt6/gd32f470vet6_cmake_test/build" //修改成你的compile_commands.json的路径
 	],
 
 	"clangd.enableCodeCompletion": true,

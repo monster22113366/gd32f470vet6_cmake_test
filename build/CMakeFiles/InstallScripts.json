@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/momster/elect/code/ST/stm32f429zgt6/first_test/build/cmake_install.cmake",
-		"/home/momster/elect/code/ST/stm32f429zgt6/first_test/build/cmake/stm32cubemx/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

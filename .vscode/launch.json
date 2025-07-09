@@ -20,7 +20,7 @@
         "searchDir": [],
         "runToEntryPoint": "main",
         "showDevDebugOutput": "raw",
-        "armToolchainPath": "/opt/arm_gcc/bin",
+        "armToolchainPath": "/usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin",
         // "svdPath": "${workspaceRoot}/GD32F4xx.svd",
         "liveWatch": {
             "enabled": true,

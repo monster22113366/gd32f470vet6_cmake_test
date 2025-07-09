@@ -1,7 +1,7 @@
-set(CMAKE_CXX_COMPILER "/opt/arm_gcc/bin/arm-none-eabi-g++")
+set(CMAKE_CXX_COMPILER "/usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-g++")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
-set(CMAKE_CXX_COMPILER_VERSION "14.3.1")
+set(CMAKE_CXX_COMPILER_VERSION "14.2.1")
 set(CMAKE_CXX_COMPILER_VERSION_INTERNAL "")
 set(CMAKE_CXX_COMPILER_WRAPPER "")
 set(CMAKE_CXX_STANDARD_COMPUTED_DEFAULT "17")
@@ -19,20 +19,19 @@ set(CMAKE_CXX26_COMPILE_FEATURES "cxx_std_26")
 set(CMAKE_CXX_PLATFORM_ID "")
 set(CMAKE_CXX_SIMULATE_ID "")
 set(CMAKE_CXX_COMPILER_FRONTEND_VARIANT "GNU")
-set(CMAKE_CXX_COMPILER_APPLE_SYSROOT "")
 set(CMAKE_CXX_SIMULATE_VERSION "")
-set(CMAKE_CXX_COMPILER_ARCHITECTURE_ID "armv7")
 
 
 
-set(CMAKE_AR "/opt/arm_gcc/bin/arm-none-eabi-ar")
-set(CMAKE_CXX_COMPILER_AR "/opt/arm_gcc/bin/arm-none-eabi-gcc-ar")
-set(CMAKE_RANLIB "/opt/arm_gcc/bin/arm-none-eabi-ranlib")
-set(CMAKE_CXX_COMPILER_RANLIB "/opt/arm_gcc/bin/arm-none-eabi-gcc-ranlib")
-set(CMAKE_LINKER "/opt/arm_gcc/bin/arm-none-eabi-g++")
+
+set(CMAKE_AR "/usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-ar")
+set(CMAKE_CXX_COMPILER_AR "/usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ar")
+set(CMAKE_RANLIB "/usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-ranlib")
+set(CMAKE_CXX_COMPILER_RANLIB "/usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib")
+set(CMAKE_LINKER "/usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-g++")
 set(CMAKE_LINKER_LINK "")
 set(CMAKE_LINKER_LLD "")
-set(CMAKE_CXX_COMPILER_LINKER "[1/2] /opt/arm_gcc/bin/arm-none-eabi-g++")
+set(CMAKE_CXX_COMPILER_LINKER "[1/2] /usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/bin/arm-none-eabi-g++")
 set(CMAKE_CXX_COMPILER_LINKER_ID "")
 set(CMAKE_CXX_COMPILER_LINKER_VERSION )
 set(CMAKE_CXX_COMPILER_LINKER_FRONTEND_VARIANT )
@@ -59,9 +58,7 @@ endforeach()
 
 set(CMAKE_CXX_LINKER_PREFERENCE 30)
 set(CMAKE_CXX_LINKER_PREFERENCE_PROPAGATES 1)
-set(CMAKE_CXX_LINKER_DEPFILE_SUPPORTED )
-set(CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED )
-set(CMAKE_CXX_LINKER_PUSHPOP_STATE_SUPPORTED )
+set(CMAKE_CXX_LINKER_DEPFILE_SUPPORTED FALSE)
 
 # Save compiler ABI information.
 set(CMAKE_CXX_SIZEOF_DATA_PTR "4")
@@ -90,7 +87,7 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/opt/arm_gcc/arm-none-eabi/include/c++/14.3.1;/opt/arm_gcc/arm-none-eabi/include/c++/14.3.1/arm-none-eabi/thumb/v7e-m+fp/hard;/opt/arm_gcc/arm-none-eabi/include/c++/14.3.1/backward;/opt/arm_gcc/lib/gcc/arm-none-eabi/14.3.1/include;/opt/arm_gcc/lib/gcc/arm-none-eabi/14.3.1/include-fixed;/opt/arm_gcc/arm-none-eabi/include")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/c++/14.2.1;/usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/c++/14.2.1/arm-none-eabi/thumb/v7e-m+fp/hard;/usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/c++/14.2.1/backward;/usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include;/usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include-fixed;/usr/share/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include")
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "")
 set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
@@ -98,11 +95,11 @@ set(CMAKE_CXX_COMPILER_CLANG_RESOURCE_DIR "")
 
 set(CMAKE_CXX_COMPILER_IMPORT_STD "")
 ### Imported target for C++23 standard library
-set(CMAKE_CXX23_COMPILER_IMPORT_STD_NOT_FOUND_MESSAGE "Experimental `import std` support not enabled when detecting toolchain; it must be set before `CXX` is enabled (usually a `project()` call)")
+set(CMAKE_CXX23_COMPILER_IMPORT_STD_NOT_FOUND_MESSAGE "Toolchain does not support discovering `import std` support")
 
 
 ### Imported target for C++26 standard library
-set(CMAKE_CXX26_COMPILER_IMPORT_STD_NOT_FOUND_MESSAGE "Experimental `import std` support not enabled when detecting toolchain; it must be set before `CXX` is enabled (usually a `project()` call)")
+set(CMAKE_CXX26_COMPILER_IMPORT_STD_NOT_FOUND_MESSAGE "Toolchain does not support discovering `import std` support")
 
 
 
